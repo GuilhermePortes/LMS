@@ -1,0 +1,478 @@
+header{
+    width: 100%;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    height: 100px;
+    opacity: 0.9;
+}
+
+.topo{
+    background-color:#2b2a2a;
+    padding: 5px;
+    width: 100%;
+}
+
+.logo-impacta{
+    width: 225px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+.noticias-topo{
+    width:35px;
+    height: 35px;
+}
+
+.disciplinas-topo{
+    width:35px;
+    height:35px;
+}
+
+.sobre-topo{
+    width:35px;
+    height:35px;
+}
+
+.cursos-topo{
+    width:35px;
+    height:35px;
+}
+
+.login-topo{
+    width:35px;
+    height:35px;
+}
+
+.img-grupo{
+    height: 400px;
+    width: 230px;
+    margin: 50px auto;
+    padding: 20px;
+    display: block;
+    box-shadow: 1px 1px 20px #000;
+    background-color: gainsboro;
+}
+
+.cabecalho{
+    margin: 120px 0 10px 0;
+    
+}
+
+.tituloh1{
+    text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    height: 60px;
+    border-radius: 2px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin: 5px 10px 0 2px;
+    float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: darkgray;}
+
+.loginbtn {
+    float: right;
+    background-color: greenyellow;
+    margin: 5px 12px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    height: 60px;
+    width: 100px;
+    border-radius: 2px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+/* PARTE DO PORTES */
+.ADM{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: left;
+    text-align: center;
+	color: white;
+}
+
+.ADS{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: right;
+    text-align: center;
+	color: white;    
+}
+
+.ADS_ead{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: left;
+    text-align: center;
+	color: white;    
+}
+
+.SI{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: left;
+    text-align: center;
+	color: white;    
+}
+
+.RC{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: right;
+    text-align: center;
+	color: white;
+}
+
+.JD{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: left;
+    text-align: center;
+	color: white;
+}
+
+.PG{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: right;
+    text-align: center;
+	color: white;
+}
+
+.PM{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: left;
+    text-align: center;
+	color: white;   
+}
+
+.EC{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: right;
+    text-align: center;
+	color: white;
+}
+
+.GTI{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.BD{
+    background-color: #708090;
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(6, 41, 240);
+    float: right;
+    text-align: center;
+	color:white;
+}
+
+:hover.ADM{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.ADS{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.ADS_ead{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.SI{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.RC{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.JD{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.PG{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.PM{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.EC{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.GTI{
+    background-color: rgb(2, 2, 179);
+}
+
+:hover.BD{
+    background-color: rgb(2, 2, 179);
+}
+
+.nada{
+    margin: 10px 50px; 
+    padding: 10px;
+    width: 1213px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+
+.sobre_infra{
+    margin: 10px 100px 80px;
+    padding: 20px 10px;
+    width: 1175px;
+    height: 600px;
+    border-radius: 3px;
+    float: left;
+}
+
+.foto_infra{
+    float: left;
+    margin:20px 50px;
+    height: 422px;
+    width: 435px;
+}
+.descricao_infra{
+    text-align: left;
+    margin: 20px 10px; 
+    padding: 50px 0 0 0; 
+    width: 600px;
+    height: 400px;
+    border-radius: 3px;
+    float: left;
+}
+.coordenador_adm{
+    margin: 10px 100px 80px;
+    padding: 20px 10px;
+    width: 1180px;
+    height: 700px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.descricaocoordenador_adm{
+    text-align: left;
+    margin: 20px 10px; 
+    padding: 10px;
+    width: 640px;
+    height: 550px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.coordenador_jd{
+    margin: 10px 100px 80px;
+    padding: 20px 10px;
+    width: 1180px;
+    height: 850px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.descricaocoordenador_jd{
+    text-align: left;
+    margin: 20px 10px; 
+    padding: 10px;
+    width: 640px;
+    height: 700px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+
+/*Parte do Raul*/
+.not{
+    background-color:   rgb(2, 2, 179);
+    margin: 10px 40px; 
+    padding: 10px;
+    width: 510px;
+    height: auto;
+    border: 1px solid black;
+    text-align: justify;
+    color:white;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+
+}
+
+.not2{
+    background-color: rgb(2, 2, 179);
+    margin: 10px 40px; 
+    padding: 10px;
+    width: 510px;
+    height: auto;
+    border: 1px solid black;
+    float: right;
+    text-align: justify;
+    color: white;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);  
+}
+.not3{
+    background-color:  rgb(2, 2, 179);
+    margin: 10px 40px; 
+    padding: 10px;
+    width: 510px;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    text-align: justify;
+    color: white; 
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.not4{
+    background-color:  rgb(2, 2, 179);
+    margin: 10px 40px; 
+    padding: 10px;
+    width: 510px;
+    height: auto;
+    border: 1px solid black;
+    float: right;
+    text-align: justify;
+    color: white; 
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.not5{
+    background-color:  rgb(2, 2, 179);
+    margin: 10px 40px; 
+    padding: 10px;
+    width: 510px;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    text-align: justify;
+    color: white; 
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.not6{
+    background-color:  rgb(2, 2, 179);
+    margin: 10px 40px; 
+    padding: 10px;
+    width: 510px;
+    height: auto;
+    border: 1px solid black;
+    float: right;
+    text-align: justify;
+    color: white; 
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+
+/* PAGINA DE LOGIN */
+
+.login-page {
+    width: 400px;
+    padding: 15% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
