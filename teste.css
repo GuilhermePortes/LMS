@@ -457,17 +457,34 @@ header{
 
 /* PAGINA DE LOGIN */
 
+.pagina-login{
+    background-image: url(fnd-login.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo-login{
+    margin: 50px 115px 0;
+}
+
 .login-page {
     width: 400px;
-    padding: 15% 0 0;
-    margin: auto;
+    margin: 50px;
+}
+
+.form button{
+    background-color: greenyellow;
+    font-size: 16px;
+    border: none;
+    height: 60px;
+    width: 150px;
+    border-radius: 2px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
 
 .form {
-    position: relative;
     background: #FFFFFF;
     max-width: 400px;
-    margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -483,187 +500,4 @@ header{
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
-}
-
-.login-enviar{
-    background-color: green;    
-}
-
-
-/*Inserindo estilo dos cursos
-
-div{
-    padding: 20px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-}
-
-:hover.menu{
-    background-color: darkgray;
-    color: white;
-}
-
-a{
-    text-decoration: none;
-    color:#000000; 
-}
-
-a:visited {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none; 
-	color: white;
-}
-
-a:active {
-	text-decoration: none
-}
-*/    
-
-.img_impacta_header{
-    margin: -10px 0 0 50px;
-    width: 250px;
-    height: 60px;
-    float: left;
-}
-
-.tituloh1{
-    text-align: center;
-}
-
-h2{
-    margin: 10px;
-}
-
-p{
-    margin: 10px;
-}
-
-h3{
-    margin: 5px 10px;
-}
-
-ol{
-    padding: 0 5px;
-}
-
-.letrasdiferentes{
-    margin: 10px;
-}
-
-.letrasdiferentesh1{
-    margin: 10px;
-    text-align: center;
-}
-
-.sobre{
-    margin: 10px 100px;
-    padding: 10px 10px 10px 10px;
-    width: 500px;
-    height: 300px;
-    border-radius: 3px;
-    float: left;
-    font-size: 15px;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
-}
-
-.periodo{
-    margin: 10px -5px; 
-    padding: 10px 40px;
-    width: 500px;
-    height: 300px;
-    border-radius: 3px;
-    float: left;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
-}
-
-.periodo2{
-    margin: 10px 60px; 
-    padding: 10px;
-    width: 400px;
-    height: 75px;
-    border: 1px solid gray;
-    border-radius: 3px;
-    float: right;
-}
-
-.ampulheta{
-    width: 80px;
-    height: 80px;
-    float: left;
-    padding: 0 10px;
-}
-
-.duracao{
-    margin: 5px 60px; 
-    padding: 10px;
-    width: 400px;
-    height: 75px;
-    border: 1px solid gray;
-    border-radius: 3px;
-    float: right;
-}
-
-.calendario{
-    width: 80px;
-    height: 80px;
-    float: left;
-    padding: 0 10px;
-}
-
-.matrizcurricular{
-    text-align: center;
-    margin: 20px 100px;
-    padding: 20px 10px;
-    width: 1175px;
-    height: 700px;
-    border-radius: 3px;
-    float: left;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
-}
-
-.coordenador{
-    margin: 10px 100px 80px;
-    padding: 20px 10px;
-    width: 1175px;
-    height: 600px;
-    border-radius: 3px;
-    float: left;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
-}
-
-.foto{
-    float: left;
-    margin:20px 50px;
-    height: 450px;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
-}
-.descricaocoordenador{
-    text-align: left;
-    margin: 20px 10px; 
-    padding: 10px;
-    width: 600px;
-    height: 400px;
-    border-radius: 3px;
-    float: left;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
-}
-
-.subtitulo{
-    text-align: center;
-    font-style: italic;
-}
-
-.tabela_semestre{
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align:center;
-    border-collapse: collapse;
-    background-color: #7093DB;
-    border: 1px solid white;
-}
-.cortabela{
-    background-color: royalblue;
 }
