@@ -8,40 +8,22 @@
         <link rel="stylesheet" type="text/css"  href="teste.css" /> 
     </head>
 
-    <body>
-
-        <header>
-        <div class="topo">
+    <body class="pagina-login">
+        <div class="logo-login">
             <a href="index.html"><img src="logo-novo.png" alt="Logo Impacta" class="logo-impacta"></a>
-            <a href="index.html"><button class="loginbtn"><img src="login.ico" alt="Botão Login" class="login-topo"> Login </button></a>
-            
-            <div class="dropdown">
-                <a href="noticias.html"><button class="dropbtn"><img src="news.png" alt="Notícias" class="noticias-topo"> Notícias </button></a>
-            </div>
-            <div class="dropdown">
-                <a href="sobre.html"><button class="dropbtn"><img src="sobre.png" alt="Sobre" class="sobre-topo"> Sobre </button></a>
-            </div>
-            <div class="dropdown">
-                <a href="lista_de_cursos.html"><button class="dropbtn"><img src="livros.png" alt="Cursos" class="cursos-topo"> Cursos </button></a>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
         </div>
-        </header>
 
         <div class="login-page">
             <div class="form">
                 <form method="post" action="">
-                    <label for="user">LOGIN</label>
-                    <input type="text" id="user" name="user" placeholder="Digite seu RA"><br><br>
+                    <label for="user"> LOGIN </label>
+                    <input type="text" id="user" name="user" placeholder="Digite seu RA" autofocus><br><br>
 
-                    <label for="password">SENHA</label>
+                    <label for="password"> SENHA </label>
                     <input type="password" id="password" name="password"><br><br>
                     
-                    <input type="submit" value="Login">
+                    <label for="submit">  </label>
+                    <button type="submit" value="Login"> Fazer Login </button>
                 </form>
             </div>
         </div>
