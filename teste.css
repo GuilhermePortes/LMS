@@ -682,18 +682,3 @@ ol{
     margin: 90px 0 10px 0;
     
 }
-
-.img-menu{
-    height: 35px;
-    width: 35px;
-}
-
-.img-grupo{
-    height: 400px;
-    width: 230px;
-    margin: 5px auto;
-    padding: 20px;
-    display: block;
-    box-shadow: 1px 1px 20px #000;
-    background-color: gainsboro;
-}
