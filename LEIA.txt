@@ -1,11 +1,9 @@
 index - feito
 
 
-A FAZER
+A FAZER:
 
-Lista de cursos (arrumar as div) 
-tds as paginas de curso (colocar menu e ver se ta arrumada a identação)
-Arrumar pagina de noticias
+Fazer paginas dos cursos GTI, PM e BD
 
 
 Criar pagina de login
