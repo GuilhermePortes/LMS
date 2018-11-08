@@ -527,7 +527,8 @@ a:link{
 /* FINAL PGN LOGIN */
 
  /* AREA DO ALUNO */
- .logo-centralizado{
+
+.logo-centralizado{
     float:none;
     display:block;
     margin-left:auto;
@@ -535,19 +536,22 @@ a:link{
     width: 225px;
     height: 70px;
 }
- .info-aluno{
+
+.info-aluno{
     float: right;
-    margin: 100px 20px 0 0;
+    margin: 0px 20px;
     height: 150px;
     width: 600px;
     padding: 10px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
- .info-aluno button{
+
+.info-aluno button{
     float: right;
-    margin: 10px 7px 50px 5px;
+    margin: 25px 7px 50px 5px;
 }
- .botao-sair{
+
+.botao-sair{
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
     background-color: crimson;
@@ -558,7 +562,12 @@ a:link{
     border-radius: 2px;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
- .botao-area-aluno{
+
+.botao-sair a{
+    color: white;
+}
+
+.botao-area-aluno{
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
     background-color: dimgray;
@@ -569,7 +578,7 @@ a:link{
     border-radius: 2px;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
- .ft-aluno{
+.ft-aluno{
     margin: 1px;
     width: 60px;
     height: 65px;
@@ -577,27 +586,28 @@ a:link{
     border: 1px solid black;
     float: left;
 }
- .nome-area-aluno{
+.nome-area-aluno{
     margin: 1px 0 0 5px;
     font-size: 15px;
     float: left;
 }
- .curso-area-aluno{
+.curso-area-aluno{
     max-width: 340px;
     font-size: 15px;
     height: 50px;
     margin: 1px 1px 0 20px;
     float: left;
 }
- .ra-area-aluno{
+.ra-area-aluno{
     margin: -7px 0 10px 5px;
     font-size: 15px;
     float: left;
 }
- .lista-area-aluno{
+.lista-area-aluno{
     float: left;
     margin: 100px;
 }
+
  /* FINAL AREA ALUNO */
 
  /* Cursos css*/
@@ -777,3 +787,31 @@ ol{
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
 /*final curso css*/
+
+/* Set a width if you like */
+.vertical-menu {
+    width: 250px;
+    margin: 100px 10px 10px 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.vertical-menu a {
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.logo-menu-area-aluno{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+
+ /* FINAL AREA ALUNO */
