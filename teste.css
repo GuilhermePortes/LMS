@@ -599,3 +599,181 @@ a:link{
     margin: 100px;
 }
  /* FINAL AREA ALUNO */
+
+ /* Cursos css*/
+
+ .tituloh1{
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+h3{
+    margin: 5px 10px;
+}
+
+ol{
+    padding: 0 5px;
+}
+
+.letrasdiferentes{
+    margin: 10px;
+}
+
+.letrasdiferentesh1{
+    margin: 10px;
+    text-align: center;
+}
+
+.sobre{
+    margin: 10px 100px;
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+    height: 450px;
+    border-radius: 3px;
+    float: left;
+    font-size: 15px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+.periodo{
+    margin: 10px -5px; 
+    padding: 10px 40px;
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+.periodo2{
+    margin: 15px; 
+    padding: 10px;
+    width: 400px;
+    height: 85px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    float: right;
+}
+
+.ampulheta{
+    width: 80px;
+    height: 65px;
+    float: left;
+    padding: 0 10px;
+}
+
+.duracao{
+    margin: 15px; 
+    padding: 0px;
+    width: 400px;
+    height: 75px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    float: right;
+}
+
+.calendario{
+    width: 80px;
+    height: 65px;
+    float: left;
+    padding: 0 10px;
+}
+
+.matrizcurricular{
+    text-align: center;
+    margin: 20px 100px;
+    padding: 20px 10px;
+    width: 770px;
+    height: 700px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+.coordenador_jd{
+    margin: 10px 100px 80px;
+    padding: 20px 10px;
+    width: 1175px;
+    height: 1150px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+
+
+.foto{
+    float: left;
+    margin:20px 50px;
+    height: 450px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.descricaocoordenador_jd{
+    text-align: left;
+    margin: 20px 10px; 
+    padding: 10px;
+    width: 600px;
+    height: 1000px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+
+.subtitulo{
+    text-align: center;
+    font-style: italic;
+}
+
+.tabela_semestre{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    border-collapse: collapse;
+    background-color: #7093DB;
+    border: 1px solid white;
+}
+.cortabela{
+    background-color: royalblue;
+}
+
+.cabecalho{
+    margin: 90px 0 10px 0;  
+}
+
+.coordenador{
+    margin: 10px 100px 80px;
+    padding: 20px 10px;
+    width: 1175px;
+    height: auto;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.descricaocoordenador{
+    text-align: left;
+    margin: 20px 10px; 
+    padding: 10px;
+    width: 600px;
+    height: auto;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12); 
+}
+.matrizcurricular_adm{
+    text-align: center;
+    margin: 20px 100px;
+    padding: 20px 10px;
+    width: 980px;
+    height: 1000px;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+/*final curso css*/
