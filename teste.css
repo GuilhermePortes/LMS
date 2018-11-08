@@ -608,6 +608,32 @@ a:link{
     margin: 100px;
 }
 
+/* Set a width if you like */
+.vertical-menu {
+    width: 250px;
+    margin: 100px 10px 10px 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.vertical-menu a {
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.logo-menu-area-aluno{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+
  /* FINAL AREA ALUNO */
 
  /* Cursos css*/
@@ -787,31 +813,3 @@ ol{
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
 /*final curso css*/
-
-/* Set a width if you like */
-.vertical-menu {
-    width: 250px;
-    margin: 100px 10px 10px 20px;
-    background-color: #f1f1f1;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-.vertical-menu a {
-    background-color: white; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
-}
-
-.vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
-}
-
-.logo-menu-area-aluno{
-    width: 30px;
-    height: 30px;
-    margin: 0 10px 0 0;
-}
-
- /* FINAL AREA ALUNO */
