@@ -129,7 +129,7 @@ header{
     margin: 10px 200px; 
     padding: 10px;
     width: 400px;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
@@ -142,7 +142,7 @@ header{
     margin: 10px 200px 10px 0; 
     padding: 10px;
     width: 400px;
-    height: 135px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: right;
     text-align: center;
@@ -156,7 +156,7 @@ header{
     margin: 10px 200px; 
     padding: 10px;
     width: 400px;
-    height: 135px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
@@ -169,7 +169,7 @@ header{
     margin: 10px 200px 10px 0; 
     padding: 10px;
     width: 400px;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: right;
     text-align: center;
@@ -182,7 +182,7 @@ header{
     margin: 10px 200px; 
     padding: 10px;
     width: 400px;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
@@ -195,7 +195,7 @@ header{
     margin: 10px 200px 10px 0; 
     padding: 10px;
     width: 400px;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: right;
     text-align: center;
@@ -208,7 +208,7 @@ header{
     margin: 10px 200px; 
     padding: 10px;
     width: 400px;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
@@ -221,7 +221,7 @@ header{
     margin: 10px 200px 10px 0; 
     padding: 10px;
     width: 400px;
-    height: 135px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: right;
     text-align: center;
@@ -234,7 +234,7 @@ header{
     margin: 10px 200px; 
     padding: 10px;
     width: 400px;
-    height: 135px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
@@ -247,7 +247,7 @@ header{
     margin: 10px 200px 10px 0; 
     padding: 10px;
     width: 400px;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: right;
     text-align: center;
@@ -260,7 +260,7 @@ header{
     margin: 10px 200px; 
     padding: 10px;
     width: 400px;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(6, 41, 240);
     float: left;
     text-align: center;
@@ -277,7 +277,7 @@ header{
 }
 /*Tirando os links dos cursos */
 a:link{
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 :hover.ADM{
@@ -322,6 +322,61 @@ a:link{
 
 :hover.BD{
     background-color: rgb(2, 2, 179);
+}
+/*hover lista cursos <a>*/
+:hover.ADM a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.ADS a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.ADS_EAD a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.SI a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.RC a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.JD a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.PG a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.PM a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.EC a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.GTI a{
+    background-color: rgb(2, 2, 179);
+    color: white;
+}
+
+:hover.BD a{
+    background-color: rgb(2, 2, 179);
+    color: white;
 }
 
 .nada{
@@ -671,7 +726,7 @@ ol{
     margin: 10px 100px;
     padding: 10px 10px 10px 10px;
     width: 500px;
-    height: 450px;
+    height: auto;
     border-radius: 3px;
     float: left;
     font-size: 15px;
@@ -687,12 +742,30 @@ ol{
     float: left;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
 }
+.periodo_si{
+    margin: 10px -5px; 
+    padding: 10px 40px;
+    width: 500px;
+    height: auto;
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
 
 .periodo2{
     margin: 15px; 
     padding: 10px;
     width: 400px;
     height: 85px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    float: right;
+}
+.periodo2_si{
+    margin: 15px; 
+    padding: 10px;
+    width: 400px;
+    height: auto;
     border: 1px solid gray;
     border-radius: 3px;
     float: right;
@@ -726,8 +799,8 @@ ol{
     text-align: center;
     margin: 20px 100px;
     padding: 20px 10px;
-    width: 770px;
-    height: 700px;
+    width: auto;
+    height: auto;
     border-radius: 3px;
     float: left;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
@@ -807,7 +880,7 @@ ol{
     margin: 20px 100px;
     padding: 20px 10px;
     width: 980px;
-    height: 1000px;
+    height: auto;
     border-radius: 3px;
     float: left;
     box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
